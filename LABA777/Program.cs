@@ -134,13 +134,13 @@ namespace task_7
                     }
                     catch
                     {
-                        Console.WriteLine("Якісь дані у файлі записані не належним чином!");
+                        Console.WriteLine("Якісь дані у файлі записаніппппппп не належним чином!");
                         Environment.Exit(0);
                     }
                 }              
             }                       
             PrintArray(daysFileArray);
-            return CheckData(daysFileArray);
+            return CheckData(daysFileArray);ууууу 
         }
 
         private static int[,] ReadingFromConsole(ref int[,] daysConsoleArray, int days)
@@ -249,6 +249,8 @@ namespace task_7
             {
                 weatherParametersDays[i] = new WeatherParametersDay(daysArray[0, i], daysArray[1, i], daysArray[2, i], daysArray[3, i], daysArray[4, i]);
             }
+
+            Console.WriteLine("Lallaloopsi"); 
 
             WeatherDays weatherDays = new WeatherDays(weatherParametersDays); //об'єкт класу
 
