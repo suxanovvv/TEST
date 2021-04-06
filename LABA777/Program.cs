@@ -257,6 +257,7 @@ namespace task_7
             Console.WriteLine($"Середня температура вночі у місяці: {weatherDays.AverageTemperatureNightMonth(days1)}");
 
             Console.ReadKey();
+            Console.Writeline("ТСПП!!!");
         }
     }
 }
