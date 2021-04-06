@@ -250,7 +250,7 @@ namespace task_7
                 weatherParametersDays[i] = new WeatherParametersDay(daysArray[0, i], daysArray[1, i], daysArray[2, i], daysArray[3, i], daysArray[4, i]);
             }
 
-            WeatherDays weatherDays = new WeatherDays(weatherParametersDays); //об'єкт класу
+            WeatherDays weatherDays = new WeatherDays(weatherParametersDays1); //об'єкт класу
 
             Console.WriteLine($"\nКількість днів, коли був туман: {weatherDays.CountFogDays()}\nКількість днів, у які були опади: {weatherDays.CountRainDays()}");
             Console.WriteLine($"Середня температура вдень у місяці: {weatherDays.AverageTemperatureDay(days1)}");
