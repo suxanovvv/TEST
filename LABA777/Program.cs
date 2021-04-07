@@ -2,6 +2,8 @@
 
 //Змінено з IDE
 
+//New1
+
 using System;
 using System.IO;
 using System.Linq;
