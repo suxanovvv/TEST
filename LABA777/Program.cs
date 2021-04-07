@@ -1,4 +1,6 @@
-﻿//Змінено з IDE
+//Змінено з браузера
+
+//Змінено з IDE
 
 using System;
 using System.IO;
