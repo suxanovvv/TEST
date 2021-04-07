@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Змінено з IDE
+
+using System;
 using System.IO;
 using System.Linq;
 
