@@ -2,6 +2,8 @@
 
 //Змінено з IDE
 
+//New1
+
 //NEW2
 
 using System;
